@@ -7,6 +7,11 @@ public class CreateComputer {
 	double profondita;
 	String produttore;
 	int annoProduzione;
+	static int numeroComputer = 0;
+	
+	public static int getNumeroComputer() {
+		return numeroComputer;
+	}
 	
 	public double getPrezzo() {
 		return prezzo;
@@ -59,6 +64,7 @@ public class CreateComputer {
 		this.peso = peso;
 		this.produttore = produttore;
 		this.profondita= profondita;
+		this.numeroComputer ++;
 		
 	}
 	 
