@@ -7,6 +7,7 @@ public class CreateComputer {
 	double profondita;
 	String produttore;
 	int annoProduzione;
+	
 	static int numeroComputer = 0;
 	
 	public static int getNumeroComputer() {
@@ -67,5 +68,8 @@ public class CreateComputer {
 		this.numeroComputer ++;
 		
 	}
+	
+
 	 
+	
 }
