@@ -7,8 +7,7 @@ public class Main {
 		Random rng = new Random();
 		for (int i= 0; i< 100; i++) {
 			Integer num = Dividi(rng.nextInt(10), rng.nextInt(10));
-			//System.out.println(num);
-			
+			//System.out.println(num);		
 		}
 		
 	
@@ -28,8 +27,7 @@ public class Main {
 		finally {
 			System.out.println("eh eh eh");
 		}
-		
-		
-		}
+			
+	}
 
 }
