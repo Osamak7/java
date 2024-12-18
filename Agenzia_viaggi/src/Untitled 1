@@ -1,6 +1,6 @@
 /*
  * Realizzare un progetto che simuli
- * - un'agenza di viaggi con le funzionalità di prenotazione volo e cancellazione volo
+ * - un'agenza di viaggi con le funzionalità di prenotazione volo e cancellazione volo   
  * - un insieme di compagnie aeree dove ognuna esporta i servizi di
  * - prenotazione volo
  * - cancellazione volo
@@ -23,11 +23,12 @@
  *  Menu per aeroporto
  *  imbarco
  *  decollo
- *  atterraggio
+ *  atterraggio 
  
  *  Menu per compagnia aerea
- *  crea aereo
- *  elimina aereo
+ *  crea aereo(nome_aereo, numero_posti )
+ *  elimina aereo (nome_aereo )
+ 
  
  *  ovviamente la compagnia aerea predispone una lista di voli (da, a, orario, nome aereo) utilizzabile per le prenotazioni e per gli imbarchi, e i voli
  *  Abbiamo quindi N compagnie aeree e M aeroporti
